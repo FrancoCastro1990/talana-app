@@ -1,0 +1,25 @@
+.category-item {
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    padding: 4px 8px;
+    transition: all .125s ease-in-out;
+
+    svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.item-active {
+    background-color: #57fbda9f;
+    color: rgb(34, 34, 191);
+    font-weight: bold;
+}
+
+.category-item:hover {
+    background-color: #57fbda9f;
+}
